@@ -1207,7 +1207,7 @@ groupTypes.raisebox = function(group, options) {
         value: [{
             type: "text",
             value: {
-                body: group.value.body,
+                body: group.value.value,
                 font: "mathrm", // simulate \textrm
             },
         }],
